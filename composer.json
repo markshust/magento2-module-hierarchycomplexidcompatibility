@@ -1,0 +1,22 @@
+{
+    "name": "markshust/magento2-module-hierarchycomplexidcompatibility",
+    "description": "The Hierarchy Complex ID Compatibility module makes the hierarchy compatible with long URL identifiers containing subpaths.",
+    "require": {
+        "php": "^7.1",
+        "magento/framework": "^102",
+        "magento/module-versions-cms": "^101"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MarkShust\\HierarchyComplexIdCompatibility\\": ""
+        }
+    }
+}
